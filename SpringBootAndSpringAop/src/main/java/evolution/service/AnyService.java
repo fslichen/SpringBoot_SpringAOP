@@ -12,4 +12,8 @@ public class AnyService {
 	public String anyMethod() {
 		return "Hello " + this.name;
 	}
+	
+	public String anotherMethod(String name) {
+		return "Hello " + name;
+	}
 }
